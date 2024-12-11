@@ -139,6 +139,43 @@
     margin-top: 30px;
 }
 
+/* See More Btn */
+.see-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Feature Section */
+.feature-image {
+    height: 270px;
+    width: 400px;
+    background-image: url('../assets/main-images/video-gear.png');
+    background-size: cover;
+    border-radius: 10px;
+}
+.feature-heading {
+    color: var(--default-black);
+    font-size: 2.375rem;
+    margin-top: 10px;
+}
+.feature-description {
+    color: var(--all-description);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.join-now {
+    border-radius: 0px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 /* Extra Small (max-width: 480px) */
 @media (max-width: 480px) {
     .logo {
@@ -200,6 +237,29 @@
     .cart-image {
         width: 280px;
     }
+    .see-more {
+        padding-right: 0px;
+        justify-content: center;
+    }
+    
+    /* Feature Section */
+    .features {
+        flex-direction: column-reverse;
+    }
+    .feature-heading {
+        text-align: center;
+    }
+    .feature-description {
+        text-align: center;
+    }
+    .join-now-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .feature-image {
+        width: 300px;
+    }
 }
 
 /* Small Screen (min-width: 481px) and (max-width: 768px) */
@@ -256,6 +316,27 @@
     .cart-image {
         width: 280px;
     }
+
+    .see-more {
+        padding-right: 0px;
+        justify-content: center;
+    }
+
+    /* Feature Section */
+    .features {
+        flex-direction: column-reverse;
+    }
+    .feature-heading {
+        text-align: center;
+    }
+    .feature-description {
+        text-align: center;
+    }
+    .join-now-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 }
 
 /* min-width: 769px & max-width: 1025px */
@@ -288,6 +369,26 @@
         grid-template-columns: repeat(2, 330px);
         gap: 20px;
     }
+    .see-more {
+        padding-right: 0px;
+        justify-content: center;
+    }
+
+     /* Feature Section */
+     .features {
+        flex-direction: column-reverse;
+    }
+    .feature-heading {
+        text-align: center;
+    }
+    .feature-description {
+        text-align: center;
+    }
+    .join-now-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 }
 
 /* min-width: 1026px max-width: 1200px */
@@ -312,5 +413,12 @@
     .carts {
         grid-template-columns: repeat(3, 330px);
         gap: 10px;
+    }
+    .see-more {
+        justify-content: center;
+    }
+
+    .feature-heading {
+        font-size: 2rem;
     }
 }
