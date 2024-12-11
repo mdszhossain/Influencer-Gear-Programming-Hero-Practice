@@ -138,6 +138,30 @@
     justify-content: center;
     margin-top: 30px;
 }
+.microphone {
+    background-image: url('../assets/main-images/microphone.png');
+}
+.airpod {
+    background-image: url('../assets/main-images/apple-airpod.png');
+}
+.drone {
+    background-image: url('../assets/main-images/drone-camera.png');
+}
+.light-setup {
+    background-image: url('../assets/main-images/snap-lights.png');
+}
+.photoshoot {
+    background-image: url('../assets/main-images/desk-setup.png');
+}
+.vlog-camera {
+    background-image: url('../assets/main-images/dslr-camera.png');
+}
+.green-screen {
+    background-image: url('../assets/main-images/single-green-screen-light.png');
+}
+.action-camera {
+    background-image: url('../assets/main-images/action-cam.png');
+}
 
 /* See More Btn */
 .see-more {
