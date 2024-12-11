@@ -1,0 +1,98 @@
+/* Font Adding */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universal */
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --default-black: #3A3A3A;
+    --all-description: #6C6C6C;
+    --default-pink: #E02C6D;
+    --icon-size: 1.75rem;
+    --description-font-size: 1rem;
+    --white-color: #FFFFFF;
+}
+.hamburger {
+    display: none;
+}
+
+/* Nav Section */
+.logo {
+    color: var(--default-black);
+    font-size: 1.5rem;
+}
+.nav-content {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.nav-content li {
+    list-style-type: none;
+}
+.nav-content a {
+    text-decoration: none;
+    color: var(--default-black);
+}
+.nav-icons {
+    font-size: var(--icon-size);
+    color: var(--default-black);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px 30px 50px;
+}
+
+.hero-description {
+    color: var(--all-description);
+    font-size: var(--description-font-size);
+    padding: 20px 0px 20px 0px;
+}
+.hero-headline {
+    font-size: 3.25rem;
+    color: var(--default-black);
+}
+.preebook-btn {
+    border: 0px;
+    background-color: var(--default-pink);
+    color: var(--white-color);
+    padding: 10px 25px 10px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+/* Extra Small (max-width: 480px) */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+    .nav-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-container {
+        flex-direction: column;
+    }
+}
+
+/* Small Screen (min-width: 481px) and (max-width: 768px) */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .logo {
+        padding-bottom: 20px;
+        font-size: 2rem;
+    }
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

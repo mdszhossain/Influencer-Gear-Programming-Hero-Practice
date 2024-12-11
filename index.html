@@ -5,10 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Gear</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navContent = document.querySelector('.nav-content');
+    
+        hamburger.addEventListener('click', () => {
+            navContent.classList.toggle('active');
+        });
+    </script>
+    
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-logo">
+                <h3 class="logo">Influencer Gear</h3>
+            </div>
+            <div class="nav-routing">
+                <ul class="nav-content">
+                    <li><a class="nav-text" href="#">Home</a></li>
+                    <li><a class="nav-text" href="#">Product</a></li>
+                    <li><a class="nav-text" href="#">Sign up</a></li>
+                    <li><a class="nav-text" href="#">Log in</a></li>
+                    <li><a class="nav-icons" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="nav-icons" href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1 class="hero-headline">Start your Journey as<br>Influencer</h1>
+                <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem<br>vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                <button class="preebook-btn">Preebook Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="hero-image">
+                <div class="camera-background">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
