@@ -6,15 +6,6 @@
     <title>Influencer Gear</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <script>
-        const hamburger = document.querySelector('.hamburger');
-        const navContent = document.querySelector('.nav-content');
-    
-        hamburger.addEventListener('click', () => {
-            navContent.classList.toggle('active');
-        });
-    </script>
-    
 </head>
 <body>
     <header>
@@ -37,15 +28,28 @@
     <main>
         <section class="hero-section">
             <div class="hero-text">
-                <h1 class="hero-headline">Start your Journey as<br>Influencer</h1>
-                <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem<br>vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                <div class="headline-hero">
+                    <h1 class="hero-headline">Start your Journey as<br>Influencer</h1>
+                </div>
+                <div class="description-hero">
+                    <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem<br>vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                </div>
                 <button class="preebook-btn">Preebook Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div class="hero-image">
                 <div class="camera-background">
-                    
+                    <img src="./assets/main-images/main-camera.png" alt="Camera-Photo">
                 </div>
             </div>
+        </section>
+        <section class="hero-section-logo">
+            <img src="./assets/essential-logos/alibaba-logo.svg" alt="">
+            <img src="./assets/essential-logos/amazon-logo.svg" alt="">
+            <img src="./assets/essential-logos/daraz-logo.svg" alt="">
+            <img src="./assets/essential-logos/ebay-logo.svg" alt="">
+            <img src="./assets/essential-logos/rakuten-logo.svg" alt="">
+            <img src="./assets/essential-logos/walmart-logo.svg" alt="">
+            <img src="./assets/essential-logos/target-logo.svg" alt="">
         </section>
     </main>
     <footer></footer>
